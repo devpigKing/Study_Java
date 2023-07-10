@@ -11,6 +11,8 @@ public class HelloJava {
         // 5. 문자 리터럴 :
         //    문자열 : 0개 이상의 문자 집합, "" 로 표시
         //    문자 : 1개의 문자 : ' '로 표시
+
+        // System.out.println : 화면에 내용을 출력하는 명령
         System.out.println("Hello, Java with Eclipse!!!");
         System.out.println("First Program");
         System.out.println("Bye ~~~~~");
