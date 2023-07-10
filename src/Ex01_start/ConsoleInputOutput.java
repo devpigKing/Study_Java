@@ -1,4 +1,4 @@
-package myCode;
+package Ex01_start;
 
 import java.util.Scanner;
 
