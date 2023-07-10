@@ -23,5 +23,7 @@ public class ConsoleInputOutput {
         // %f : 실수
         // %c : 문자
         // %b : boolean
+
+        sc.close();
     }
 }
