@@ -20,25 +20,27 @@ public class Calculator {
         String oper = sc.next();
         System.out.print("두 번째 숫자 : ");
         int num2 = sc.nextInt();
+        boolean valid = true;
 
         int result = 0;
         if(oper.equals("+")) {
             result = num1 + num2;
-            System.out.println("두 수의 합은 : " + result);
         } else if (oper.equals("-")) {
             result = num1 - num2;
-            System.out.println("두 수의 차는 : " + result);
         } else if (oper.equals("*")) {
             result = num1*num2;
-            System.out.println("두 수의 곱은 : " + result);
         } else if (oper.equals("/")) {
             result = num1/num2;  // 정수/정수 = 정수이므로 나머지는 버린다.
-            System.out.println("두 수의 나누기는 : " + result);
         } else if (oper.equals("%")) {
             result = num1 % num2;
-            System.out.println("두 수를 나누고 나는 나머지는 : " + result);
         } else {
             System.out.println("잘못된 연산자입니다. ");
+            valid = false;
+        }
+
+        //출력
+        if (valid) {
+            System.out.printf("%d %s %d = %d\n", num1, oper, num1, result);
         }
     }
 }
