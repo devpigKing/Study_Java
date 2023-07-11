@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다.">
-      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/BreakAndContinue.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_06_NestedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/scoreCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689051701580</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689052861782</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689052861782</updated>
+    </task>
+    <task id="LOCAL-00017" summary="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)">
+      <option name="closed" value="true" />
+      <created>1689052996169</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689052996169</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,6 +210,8 @@
     <MESSAGE value="#refactor : Calculator.java, 자바의 입출력, 반복문, equals 메서드를 사용해 만든 간단한 계산기코드 입니다." />
     <MESSAGE value="#feat : _01_if.java, 반복문 if에 관한 간단한 예제 코드입니다." />
     <MESSAGE value="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다." />
+    <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다." />
+    <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)" />
   </component>
 </project>
