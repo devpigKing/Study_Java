@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : 자바 공부를 위한 환경 설정 세팅과 첫번째 기본 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다.">
+      <change afterPath="$PROJECT_DIR$/src/Ex02_Variables/_02_Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex02_Variables/_03_TYPECASTING.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex02_Variables/TypeAndVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex02_Variables/_01_TypeAndVariables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "onboarding.tips.debug.path": "C:/Users/jwhyd/IdeaProjects/Study_Java/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jwhyd/IdeaProjects/Study_Java/src/Main.java&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jwhyd\IdeaProjects\Study_Java\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,13 +79,49 @@
       <option name="project" value="LOCAL" />
       <updated>1688972582085</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#feat : ConsoleInputOutput과 관련된 기본 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1688974656850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688974656850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactor : ConsoleInputOutput 패키지명 수정입니다.">
+      <option name="closed" value="true" />
+      <created>1688976884116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688976884116</updated>
+    </task>
+    <task id="LOCAL-00006" summary="#feat : TypeAndVariables.java 자료형에 대한 기본 사용법에 대한 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1688977033902</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688977033902</updated>
+    </task>
+    <task id="LOCAL-00007" summary="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1688977167870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688977167870</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#feat : 자바 공부를 위한 환경 설정과 첫번째 예시 코드입니다." />
     <MESSAGE value="#feat : ConsolInputOutput 기본 코드입니다." />
     <MESSAGE value="#feat : 자바 공부를 위한 환경 설정 세팅과 첫번째 기본 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : 자바 공부를 위한 환경 설정 세팅과 첫번째 기본 코드입니다." />
+    <MESSAGE value="#feat : ConsoleInputOutput과 관련된 기본 코드입니다." />
+    <MESSAGE value="Refactor : ConsoleInputOutput 패키지명 수정입니다." />
+    <MESSAGE value="#feat : TypeAndVariables.java 자료형에 대한 기본 사용법에 대한 코드입니다." />
+    <MESSAGE value="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다." />
   </component>
 </project>
