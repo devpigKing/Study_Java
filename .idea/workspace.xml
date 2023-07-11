@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _01_TypeAndVariables.java, 기본 자료형에 대한 사용법, 이스케이프 시퀀스, 형변환에 대한 기본 코드들입니다.">
-      <change afterPath="$PROJECT_DIR$/src/Ex02_Variables/_04_Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex03_Operator/_01_Operator1.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _04_Quiz.java, 자바 기본 자료형에 대한 간단한 퀴즈 예시입니다.">
+      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_01_if.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689042235766</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="#feat : _04_Quiz.java, 자바 기본 자료형에 대한 간단한 퀴즈 예시입니다.">
+      <option name="closed" value="true" />
+      <created>1689042579138</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689042579138</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,6 +156,7 @@
     <MESSAGE value="#feat : _02_Constants.java, 상수 선언에 관한 기본 코드입니다." />
     <MESSAGE value="#feat : _03_TypeCasting.java, 형 변환에 관한 기본 예시 코드들입니다." />
     <MESSAGE value="#feat : _01_TypeAndVariables.java, 기본 자료형에 대한 사용법, 이스케이프 시퀀스, 형변환에 대한 기본 코드들입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : _01_TypeAndVariables.java, 기본 자료형에 대한 사용법, 이스케이프 시퀀스, 형변환에 대한 기본 코드들입니다." />
+    <MESSAGE value="#feat : _04_Quiz.java, 자바 기본 자료형에 대한 간단한 퀴즈 예시입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : _04_Quiz.java, 자바 기본 자료형에 대한 간단한 퀴즈 예시입니다." />
   </component>
 </project>
