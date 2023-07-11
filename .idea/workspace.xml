@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _01_if.java, 반복문 if에 관한 간단한 예제 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다.">
+      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/BreakAndContinue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_06_NestedLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex03_ControlStatement/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689051039245</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689051701580</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689051701580</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +193,7 @@
     <MESSAGE value="#feat : Calculator.java, 자바의 입출력, 반복문, equals 메서드를 사용해 만든 간단한 계산기코드 입니다." />
     <MESSAGE value="#refactor : Calculator.java, 자바의 입출력, 반복문, equals 메서드를 사용해 만든 간단한 계산기코드 입니다." />
     <MESSAGE value="#feat : _01_if.java, 반복문 if에 관한 간단한 예제 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : _01_if.java, 반복문 if에 관한 간단한 예제 코드입니다." />
+    <MESSAGE value="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다." />
   </component>
 </project>
