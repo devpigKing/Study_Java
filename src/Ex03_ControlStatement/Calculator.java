@@ -32,8 +32,11 @@ public class Calculator {
             result = num1*num2;
             System.out.println("두 수의 곱은 : " + result);
         } else if (oper.equals("/")) {
-            result = num1/num2;
+            result = num1/num2;  // 정수/정수 = 정수이므로 나머지는 버린다.
             System.out.println("두 수의 나누기는 : " + result);
+        } else if (oper.equals("%")) {
+            result = num1 % num2;
+            System.out.println("두 수를 나누고 나는 나머지는 : " + result);
         } else {
             System.out.println("잘못된 연산자입니다. ");
         }
