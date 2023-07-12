@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : scoreCalculator.java, 자바 입출력, switch, if문을 활용한 성적 처리기 코드입니다. (next()와 nextLine()의 차이)">
-      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/RockScissorsPaperGame.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_06_NestedLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex04_Array/_02_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jwhyd/IdeaProjects/Study_Java/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "C:/Users/jwhyd/IdeaProjects/Study_Java/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jwhyd\IdeaProjects\Study_Java\src" />
@@ -200,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689056537848</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689061046038</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689061046038</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,6 +230,7 @@
     <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다." />
     <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)" />
     <MESSAGE value="#feat : scoreCalculator.java, 자바 입출력, switch, if문을 활용한 성적 처리기 코드입니다. (next()와 nextLine()의 차이)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : scoreCalculator.java, 자바 입출력, switch, if문을 활용한 성적 처리기 코드입니다. (next()와 nextLine()의 차이)" />
+    <MESSAGE value="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다." />
   </component>
 </project>
