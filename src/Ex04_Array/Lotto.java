@@ -21,6 +21,13 @@ public class Lotto {
 
             for (int i = 0; i < arrLotto.length; i++) {
                 int lotto = (int) (Math.random() * 45) + 1;
+                for (int j = 0; j < i; j++) {
+                    if(arrLotto[i] == arrLotto[j]) {
+                        i--;
+//                        i = -1;  // 처음부터 다시 뽑기
+                        break;
+                    }
+                }
                 arrLotto[i] = lotto;
                 sum += arrLotto[i];
 
@@ -28,7 +35,7 @@ public class Lotto {
 
             }
 
-            double avg = sum / arrLotto.length;
+            double avg = (double) sum / arrLotto.length;
             System.out.println();
 
             System.out.println(Arrays.toString(arrLotto));
