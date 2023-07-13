@@ -31,6 +31,17 @@ public class _03_Lotto {
             return numbers;
         }
 
+        public static double getAverage(int[] numbers) {
+            int sum = 0;
+            int avg = 0;
+            for (int i = 0; i < numbers.length; i++) {
+                sum += numbers[i]; // sum = sum + numbers[i];
+            }
+            avg = sum / numbers.length;
+
+            return avg;
+        }
+
         public static void main(String[] args) {
             // 로또 번호 추출기 만들기
 
@@ -50,7 +61,7 @@ public class _03_Lotto {
                     case "1":
                         // 0. 6개의 숫자를 저장할 배열 만들기
                         int[] numbers;
-                        double avg = 0;
+                        double avg;
                         do {
                             // numbers = selectBasicNumbers();
 
@@ -58,11 +69,10 @@ public class _03_Lotto {
 
 
                             // 2. 뽑힌 숫자의 평균 계산
-                            int sum = 0;
-                            for (int i = 0; i < numbers.length; i++) {
-                                sum += numbers[i]; // sum = sum + numbers[i];
-                            }
-                            avg = sum / numbers.length;
+                            // avg = getAverage(?);
+
+                            avg = getAverage(numbers);
+
                         } while (avg < 20 || avg > 26);
                         // 3. 평균이 20 ~ 26 범위를 벗어나면 1부터 다시
 
