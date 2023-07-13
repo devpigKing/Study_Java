@@ -25,5 +25,11 @@ public class _00_MethodDemo5 {
 
         result = add("100", "400");
         System.out.println(result);
+
+        System.out.println(add(30, 40));
+
+        add(20, 50); // add 메서드를 통한 리턴 값을 반드시 받지 않아도 됨.
+                            // => 그래서 결과형으로 오버로딩 할 수 없음.
+
     }
 }
