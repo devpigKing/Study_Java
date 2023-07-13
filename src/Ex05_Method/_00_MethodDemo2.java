@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class _00_MethodDemo2 {
 
-    private static void drawBox(String a) {
+    private static void drawBox(String a, int b, int c) {
 
-        for (int row = 0; row < 10; row++) {
-            for (int col = 0; col < 20; col++) {
-                if ( row == 0 || row == 9 || col == 0 || col == 19) {
+        for (int row = 0; row < c; row++) {
+            for (int col = 0; col < b; col++) {
+                if ( row == 0 || row == c-1 || col == 0 || col == b-1) {
                     System.out.print(a);
                 } else {
                     System.out.print(" ");
@@ -18,12 +18,20 @@ public class _00_MethodDemo2 {
         }
     }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
 
         System.out.print("박스 그리기에 사용할 문자 : ");
-        Scanner sc = new Scanner(System.in);
         String ch = sc.nextLine();
 
-        drawBox(ch);
+        System.out.print("박스 너비 : ");
+        int weight = sc.nextInt();
+
+        System.out.print("박스 높이 : ");
+        int height = sc.nextInt();
+
+
+        drawBox(ch, weight, height);
 
     }
 }

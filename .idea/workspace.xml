@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#refactor : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex05_Method/_00_MethodDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,11 +294,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689211624101</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689213025071</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1689213025071</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor : ConsoleInputOutput 패키지명 수정입니다." />
     <MESSAGE value="#feat : TypeAndVariables.java 자료형에 대한 기본 사용법에 대한 코드입니다." />
     <MESSAGE value="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다." />
     <MESSAGE value="#feat : _02_Constants.java, 상수 선언에 관한 기본 코드입니다." />
@@ -324,6 +330,7 @@
     <MESSAGE value="#feat : _02_Parameter.java, 매개 변수를 입력받는 메서드에 관련된 기본 코드입니다." />
     <MESSAGE value="#feat : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#refactor : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
+    <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
   </component>
 </project>
