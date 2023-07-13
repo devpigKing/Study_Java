@@ -18,6 +18,7 @@ public class _00_MethodDemo5 {
         // 같은 이름의 메소드를 여러 번 선언
         // 1. 전달값의 타입이 다르거나
         // 2. 전달값의 갯수가 다르거나
+        // println 메서드 역시 오버로딩된 메서드이다.
 
         int result = add(10, 20);
         System.out.println(result);
