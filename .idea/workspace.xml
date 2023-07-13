@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다.(모범 답안)">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _01_Method.java, 메서드의 시작을 알리는 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex05_Method/_01_Method.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex05_Method/_02_Parameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "onboarding.tips.debug.path": "C:/Users/jwhyd/IdeaProjects/Study_Java/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jwhyd/IdeaProjects/Study_Java/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jwhyd\IdeaProjects\Study_Java\src" />
@@ -263,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689148591370</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="#feat : _01_Method.java, 메서드의 시작을 알리는 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689149134860</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1689149134860</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : 자바 공부를 위한 환경 설정과 첫번째 예시 코드입니다." />
     <MESSAGE value="#feat : ConsolInputOutput 기본 코드입니다." />
     <MESSAGE value="#feat : 자바 공부를 위한 환경 설정 세팅과 첫번째 기본 코드입니다." />
     <MESSAGE value="#feat : ConsoleInputOutput과 관련된 기본 코드입니다." />
@@ -292,6 +299,7 @@
     <MESSAGE value="#feat : 반복문과 배열을 활용한 로또 번호 뽑기 코드입니다." />
     <MESSAGE value="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다." />
     <MESSAGE value="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다.(모범 답안)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다.(모범 답안)" />
+    <MESSAGE value="#feat : _01_Method.java, 메서드의 시작을 알리는 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : _01_Method.java, 메서드의 시작을 알리는 코드입니다." />
   </component>
 </project>
