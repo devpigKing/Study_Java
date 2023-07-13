@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 여러개의 매개변수를 입력 받는 메서드 기본 사용법 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex05_Method/_00_MethodDemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex05_Method/_00_MethodDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex05_Method/_00_MethodDemo3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,12 +311,26 @@
       <option name="project" value="LOCAL" />
       <updated>1689214141972</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="#refactor : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)">
+      <option name="closed" value="true" />
+      <created>1689214853640</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1689214853640</updated>
+    </task>
+    <task id="LOCAL-00034" summary="#feat : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)">
+      <option name="closed" value="true" />
+      <created>1689214881128</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1689214881128</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다." />
-    <MESSAGE value="#feat : _02_Constants.java, 상수 선언에 관한 기본 코드입니다." />
     <MESSAGE value="#feat : _03_TypeCasting.java, 형 변환에 관한 기본 예시 코드들입니다." />
     <MESSAGE value="#feat : _01_TypeAndVariables.java, 기본 자료형에 대한 사용법, 이스케이프 시퀀스, 형변환에 대한 기본 코드들입니다." />
     <MESSAGE value="#feat : _04_Quiz.java, 자바 기본 자료형에 대한 간단한 퀴즈 예시입니다." />
@@ -340,6 +354,8 @@
     <MESSAGE value="#refactor : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 여러개의 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 여러개의 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
+    <MESSAGE value="#refactor : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)" />
+    <MESSAGE value="#feat : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)" />
   </component>
 </project>
