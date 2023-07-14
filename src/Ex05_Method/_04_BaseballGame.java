@@ -20,14 +20,34 @@ public class _04_BaseballGame {
     }
 
     public static int[] randomSave() {
-        int[] nums = new int[3];
+        int[] arrNum = new int[3];
 
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = (int)(Math.random()*9);
+        for (int i = 0; i < arrNum.length; i++) {
+            arrNum[i] = (int)(Math.random()*10);
+            for(int j = 0; j < i; j++) {
+                if(arrNum[i] == arrNum[j]) {
+                    i--;
+                    break;
+                }
+            }
 
         }
-        return nums;
+        return arrNum;
     }
+
+    public static int[] inputUserNums() {
+        System.out.print("숫자를 선택하세요 ( 숫자1 숫자2 숫자3 ) : ");
+        String line = sc.nextLine();
+        String[] sNums = line.split(" "); // 지정된 문자열을 사용해서 문자열 분해하고 배열로 반환 : " 1 2 3 " --> [ "1", "2", "3" ]
+        System.out.println(Arrays.toString(sNums));
+//        System.out.printf("%s %s %s\n", sNums[0], sNums[1], sNums[2]);
+        int[] userNums = new int[3];
+        for (int i = 0; i < userNums.length; i++) {
+            userNums[i] = Integer.parseInt(sNums[i]);
+        }
+        return userNums;
+    }
+
     public static void main(String[] args) {
 
         // 1. 컴퓨터 숫자 선택(0 ~ 9, random, 3개) --> 저장
@@ -46,8 +66,13 @@ public class _04_BaseballGame {
             System.out.println();
             switch (selection) {
                 case "1":
-                    int[] nums = randomSave();
-                    System.out.println(Arrays.toString(nums));
+                    int[] numbs = randomSave();
+                    System.out.println(Arrays.toString(numbs));
+
+                    int[] userNums = inputUserNums();
+
+
+
                     break;
 
                 case "2": break;
