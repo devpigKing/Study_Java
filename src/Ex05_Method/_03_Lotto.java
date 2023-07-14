@@ -1,8 +1,13 @@
 package Ex05_Method;
 
+import java.util.Scanner;
+
 public class _03_Lotto {
 
-        public static void lotto1(int[] numbers, double avg) {
+    static java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+
+    public static void lotto1(int[] numbers, double avg) {
             System.out.print("[당첨 예상 번호]:");
             for (int i = 0; i < numbers.length; i++) {
                 System.out.printf("[%2d]", numbers[i]); // %2d : 2칸을 확보해서 출력
@@ -33,13 +38,24 @@ public class _03_Lotto {
 
         public static double getAverage(int[] numbers) {
             int sum = 0;
-            int avg = 0;
+            double avg = 0;
             for (int i = 0; i < numbers.length; i++) {
                 sum += numbers[i]; // sum = sum + numbers[i];
             }
-            avg = sum / numbers.length;
+            avg = (double)sum / numbers.length;
 
             return avg;
+        }
+
+        public static String selectTask() {
+            System.out.println("**************************************");
+            System.out.println("* 1. 당첨 예상 번호 뽑기                 *");
+            System.out.println("* 2. 종료                             *");
+            System.out.println("**************************************");
+            System.out.print("작업을 선택하세요 : ");
+            String selection = scanner.nextLine();
+
+            return selection;
         }
 
         public static void main(String[] args) {
@@ -47,14 +63,9 @@ public class _03_Lotto {
 
 
             // 5. 사용자가 원할 때까지 반복 ( 메뉴 시스템으로 구현 )
-            java.util.Scanner scanner = new java.util.Scanner(System.in);
             main_loop : while (true) {
-                System.out.println("**************************************");
-                System.out.println("* 1. 당첨 예상 번호 뽑기                 *");
-                System.out.println("* 2. 종료                             *");
-                System.out.println("**************************************");
-                System.out.print("작업을 선택하세요 : ");
-                String selection = scanner.nextLine();
+
+                String selection = selectTask();
 
                 System.out.println();
                 switch (selection) {
