@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#refactor : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex05_Method/_04_BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex05_Method/_04_BaseballGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,11 +431,26 @@
       <option name="project" value="LOCAL" />
       <updated>1689304565873</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="#refactor : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689320464193</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689320464193</updated>
+    </task>
+    <task id="LOCAL-00049" summary="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689320531088</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689320531088</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다." />
     <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다." />
     <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)" />
     <MESSAGE value="#feat : scoreCalculator.java, 자바 입출력, switch, if문을 활용한 성적 처리기 코드입니다. (next()와 nextLine()의 차이)" />
@@ -463,6 +475,7 @@
     <MESSAGE value="#refactor : _03_Lotto.java, 기존에 작성한 로또 당첨기 코드를 메서드화 시켜보았습니다." />
     <MESSAGE value="#feat : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
     <MESSAGE value="#refactor : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#refactor : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
+    <MESSAGE value="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다." />
   </component>
 </project>
