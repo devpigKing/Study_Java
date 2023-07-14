@@ -20,19 +20,19 @@ public class _04_BaseballGame {
     }
 
     public static int[] randomSave() {
-        int[] arrNum = new int[3];
+        int[] comNum = new int[3];
 
-        for (int i = 0; i < arrNum.length; i++) {
-            arrNum[i] = (int)(Math.random()*10);
+        for (int i = 0; i < comNum.length; i++) {
+            comNum[i] = (int)(Math.random()*10);
             for(int j = 0; j < i; j++) {
-                if(arrNum[i] == arrNum[j]) {
+                if(comNum[i] == comNum[j]) {
                     i--;
                     break;
                 }
             }
 
         }
-        return arrNum;
+        return comNum;
     }
 
     public static int[] inputUserNums() {
@@ -47,6 +47,26 @@ public class _04_BaseballGame {
         }
         return userNums;
     }
+
+    public static int[] compareNums(int[] comNums, int[] userNums) {
+        int[] result = new int[3];
+
+        for (int ui = 0; ui < userNums.length; ui++) {
+            int cnt = 2;
+
+            for(int ci = 0; ci < comNums.length; ci++) {
+
+                if (comNums[ci] == userNums[ui]) {
+                    cnt = 0;
+                } else {
+                    cnt = 1;
+                }
+            }
+            result[cnt] = result[cnt] +1;
+        }
+        return result;
+    }
+
 
     public static void main(String[] args) {
 
@@ -66,12 +86,13 @@ public class _04_BaseballGame {
             System.out.println();
             switch (selection) {
                 case "1":
-                    int[] numbs = randomSave();
-                    System.out.println(Arrays.toString(numbs));
+                    int[] comNums = randomSave();
+                    System.out.println(Arrays.toString(comNums));
 
                     int[] userNums = inputUserNums();
 
-
+                    int[] sbo = compareNums(comNums, userNums);
+                    System.out.printf("s: %d b: %d c: %d", sbo[0], sbo[1], sbo[2]);
 
                     break;
 
