@@ -58,6 +58,26 @@ public class _03_Lotto {
             return selection;
         }
 
+        public static int[] selectWinningNumbers() {
+            int[] numbers;
+            double avg;
+            do {
+                // numbers = selectBasicNumbers();
+
+                numbers = selectBasicNumbers();
+
+
+                // 2. 뽑힌 숫자의 평균 계산
+                // avg = getAverage(?);
+
+                avg = getAverage(numbers);
+
+            } while (avg < 20 || avg > 26);
+            return numbers;
+        }
+
+
+
         public static void main(String[] args) {
             // 로또 번호 추출기 만들기
 
@@ -70,23 +90,11 @@ public class _03_Lotto {
                 System.out.println();
                 switch (selection) {
                     case "1":
-                        // 0. 6개의 숫자를 저장할 배열 만들기
-                        int[] numbers;
-                        double avg;
-                        do {
-                            // numbers = selectBasicNumbers();
-
-                            numbers = selectBasicNumbers();
-
-
-                            // 2. 뽑힌 숫자의 평균 계산
-                            // avg = getAverage(?);
-
-                            avg = getAverage(numbers);
-
-                        } while (avg < 20 || avg > 26);
+                        int[] numbers = selectWinningNumbers();
+                        double avg = getAverage(numbers);
                         // 3. 평균이 20 ~ 26 범위를 벗어나면 1부터 다시
 
+                        java.util.Arrays.sort(numbers);
                         // 4. 뽑힌 숫자 출력
                         lotto1(numbers, avg);
 
