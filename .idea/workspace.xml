@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : PersonDemo5.java, 원시 자료형과 참조 자료형의 값이 저장되는 과정의 차이를 알려주는 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00008" summary="#feat : _02_Constants.java, 상수 선언에 관한 기본 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689039556468</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1689039556468</updated>
     </task>
     <task id="LOCAL-00009" summary="#feat : _03_TypeCasting.java, 형 변환에 관한 기본 예시 코드들입니다.">
       <option name="closed" value="true" />
@@ -449,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689572631668</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="#feat : PersonDemo5.java, 원시 자료형과 참조 자료형의 값이 저장되는 과정의 차이를 알려주는 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689573428867</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1689573428867</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : 자바 배열의 기본 사용법 코드와 여러가지 초기화 방법 코드입니다." />
     <MESSAGE value="#feat : 다차원 배열에 대한 기본 사용 코드입니다." />
     <MESSAGE value="#feat : 반복문과 배열을 활용한 로또 번호 뽑기 코드입니다." />
     <MESSAGE value="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다." />
@@ -478,6 +479,7 @@
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습" />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)" />
     <MESSAGE value="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다." />
+    <MESSAGE value="#feat : PersonDemo5.java, 원시 자료형과 참조 자료형의 값이 저장되는 과정의 차이를 알려주는 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : PersonDemo5.java, 원시 자료형과 참조 자료형의 값이 저장되는 과정의 차이를 알려주는 코드입니다." />
   </component>
 </project>
