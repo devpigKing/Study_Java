@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,14 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00003" summary="#feat : 자바 공부를 위한 환경 설정 세팅과 첫번째 기본 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1688972582085</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1688972582085</updated>
     </task>
     <task id="LOCAL-00004" summary="#feat : ConsoleInputOutput과 관련된 기본 코드입니다.">
       <option name="closed" value="true" />
@@ -449,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689322547272</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689560099276</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689560099276</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)" />
     <MESSAGE value="#feat : scoreCalculator.java, 자바 입출력, switch, if문을 활용한 성적 처리기 코드입니다. (next()와 nextLine()의 차이)" />
     <MESSAGE value="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다." />
     <MESSAGE value="#feat : 자바 반복문을 연습하기 위한 간단한 별찍기 예제 코드입니다." />
@@ -478,6 +476,7 @@
     <MESSAGE value="#refactor : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
     <MESSAGE value="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다." />
     <MESSAGE value="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)" />
+    <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다." />
   </component>
 </project>

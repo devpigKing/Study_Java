@@ -10,6 +10,12 @@ public class Person2 {
         private String phone;
         private String email;
 
+        // 생성자 : new 할 때 자동으로 호출되는 인스턴스 초기화
+        public Person2() {
+            System.out.println("전달인자 없는 생성자 메서드가 자동으로 호출되었습니다");
+        }
+
+
         // getter, setter : 변수에 접근하는 전용 메서드
         // getter는 읽기
         // setter는 쓰기
