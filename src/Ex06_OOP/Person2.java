@@ -1,10 +1,13 @@
 package Ex06_OOP;
 
 public class Person2 {
+        // static 멤버 (변수, 메서드) : 모든 인스턴스가 공유하는 멤버
+        public static int nextNo = 1;
 
 
         // 특성 : 변수로 표현 : 필드
         // private (접근지정자 : 외부에서 접근할 수 없음)
+        //인스턴스 멤버 : 인스턴스마다 각각 따로 만들어서 사용하는 변수
         private int no = 28;
         private String name;
         private String phone;
@@ -15,8 +18,16 @@ public class Person2 {
             System.out.println("전달인자 없는 생성자 메서드가 자동으로 호출되었습니다");
         }
 
+        public Person2(int no, String name, String phone, String email) {
+            // this : 클래스의 멤버를 표시하기 위해 사용하는 표현
+            this.no = no;
+            this.name = name;
+            this.phone = phone;
+            this.email = email;
+            System.out.println("전달인자 4개인 생성자 메서드가 자동으로 호출되었습니다");
+        }
 
-        // getter, setter : 변수에 접근하는 전용 메서드
+    // getter, setter : 변수에 접근하는 전용 메서드
         // getter는 읽기
         // setter는 쓰기
         public int getNo() {
