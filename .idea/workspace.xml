@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00001" summary="#feat : 자바 공부를 위한 환경 설정과 첫번째 예시 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1688969607931</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1688969607931</updated>
-    </task>
-    <task id="LOCAL-00002" summary="#feat : ConsolInputOutput 기본 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1688972519283</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1688972519283</updated>
     </task>
     <task id="LOCAL-00003" summary="#feat : 자바 공부를 위한 환경 설정 세팅과 첫번째 기본 코드입니다.">
       <option name="closed" value="true" />
@@ -447,11 +433,26 @@
       <option name="project" value="LOCAL" />
       <updated>1689320531088</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689321516423</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689321516424</updated>
+    </task>
+    <task id="LOCAL-00051" summary="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)">
+      <option name="closed" value="true" />
+      <created>1689322547271</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689322547272</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다." />
     <MESSAGE value="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)" />
     <MESSAGE value="#feat : scoreCalculator.java, 자바 입출력, switch, if문을 활용한 성적 처리기 코드입니다. (next()와 nextLine()의 차이)" />
     <MESSAGE value="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다." />
@@ -476,6 +477,7 @@
     <MESSAGE value="#feat : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
     <MESSAGE value="#refactor : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
     <MESSAGE value="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다." />
+    <MESSAGE value="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)" />
   </component>
 </project>
