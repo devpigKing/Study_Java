@@ -3,6 +3,10 @@ package Ex06_OOP;
 public class Person2 {
         // static 멤버 (변수, 메서드) : 모든 인스턴스가 공유하는 멤버
         public static int nextNo = 1;
+        public static int getNextNo() {
+            // no = 10; // 오류 : static 메서드에서 인스턴스 멤버에 접근할 수 없다
+            return nextNo;
+        }
 
 
         // 특성 : 변수로 표현 : 필드
