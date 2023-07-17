@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/ConstantMemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +57,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Refactor : ConsoleInputOutput 패키지명 수정입니다.">
-      <option name="closed" value="true" />
-      <created>1688976884116</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1688976884116</updated>
-    </task>
-    <task id="LOCAL-00006" summary="#feat : TypeAndVariables.java 자료형에 대한 기본 사용법에 대한 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1688977033902</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1688977033902</updated>
     </task>
     <task id="LOCAL-00007" summary="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다.">
       <option name="closed" value="true" />
@@ -450,11 +434,26 @@
       <option name="project" value="LOCAL" />
       <updated>1689560677679</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)">
+      <option name="closed" value="true" />
+      <created>1689563858001</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1689563858001</updated>
+    </task>
+    <task id="LOCAL-00055" summary="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)">
+      <option name="closed" value="true" />
+      <created>1689564038855</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1689564038855</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다." />
     <MESSAGE value="#feat : 자바 반복문을 연습하기 위한 간단한 별찍기 예제 코드입니다." />
     <MESSAGE value="#feat : 자바 배열의 기본 사용법 코드와 여러가지 초기화 방법 코드입니다." />
     <MESSAGE value="#feat : 다차원 배열에 대한 기본 사용 코드입니다." />
@@ -479,6 +478,7 @@
     <MESSAGE value="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)" />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다." />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습" />
+    <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)" />
   </component>
 </project>
