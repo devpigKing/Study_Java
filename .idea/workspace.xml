@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/ConstantMemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -57,14 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00007" summary="#feat : TypeAndVariables.java 자료형, 이스케이프 시퀀스에 대한 기본 사용법에 대한 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1688977167870</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1688977167870</updated>
     </task>
     <task id="LOCAL-00008" summary="#feat : _02_Constants.java, 상수 선언에 관한 기본 코드입니다.">
       <option name="closed" value="true" />
@@ -450,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689564038855</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689572631668</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1689572631668</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : 자바 반복문을 연습하기 위한 간단한 별찍기 예제 코드입니다." />
     <MESSAGE value="#feat : 자바 배열의 기본 사용법 코드와 여러가지 초기화 방법 코드입니다." />
     <MESSAGE value="#feat : 다차원 배열에 대한 기본 사용 코드입니다." />
     <MESSAGE value="#feat : 반복문과 배열을 활용한 로또 번호 뽑기 코드입니다." />
@@ -479,6 +477,7 @@
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다." />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습" />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)" />
+    <MESSAGE value="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다." />
   </component>
 </project>
