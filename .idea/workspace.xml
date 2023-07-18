@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _05_For.java, 반복문 연습 코드입니다.">
-      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PackageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkga/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkga/pahc/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkga/pakb/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkga/pakb/B2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
