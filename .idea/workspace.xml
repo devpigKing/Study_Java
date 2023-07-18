@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : PersonDemo5.java, 원시 자료형과 참조 자료형의 값이 저장되는 과정의 차이를 알려주는 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#refactor : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex07_ToDo/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00009" summary="#feat : _03_TypeCasting.java, 형 변환에 관한 기본 예시 코드들입니다.">
-      <option name="closed" value="true" />
-      <created>1689041174248</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041174248</updated>
-    </task>
-    <task id="LOCAL-00010" summary="#feat : _01_TypeAndVariables.java, 기본 자료형에 대한 사용법, 이스케이프 시퀀스, 형변환에 대한 기본 코드들입니다.">
-      <option name="closed" value="true" />
-      <created>1689042235766</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1689042235766</updated>
     </task>
     <task id="LOCAL-00011" summary="#feat : _04_Quiz.java, 자바 기본 자료형에 대한 간단한 퀴즈 예시입니다.">
       <option name="closed" value="true" />
@@ -451,12 +438,26 @@
       <option name="project" value="LOCAL" />
       <updated>1689573428867</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="#feat : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689581355516</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1689581355516</updated>
+    </task>
+    <task id="LOCAL-00059" summary="#refactor : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689581895074</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1689581895074</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : 다차원 배열에 대한 기본 사용 코드입니다." />
-    <MESSAGE value="#feat : 반복문과 배열을 활용한 로또 번호 뽑기 코드입니다." />
     <MESSAGE value="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다." />
     <MESSAGE value="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다.(모범 답안)" />
     <MESSAGE value="#feat : _01_Method.java, 메서드의 시작을 알리는 코드입니다." />
@@ -480,6 +481,8 @@
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)" />
     <MESSAGE value="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다." />
     <MESSAGE value="#feat : PersonDemo5.java, 원시 자료형과 참조 자료형의 값이 저장되는 과정의 차이를 알려주는 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : PersonDemo5.java, 원시 자료형과 참조 자료형의 값이 저장되는 과정의 차이를 알려주는 코드입니다." />
+    <MESSAGE value="#feat : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다." />
+    <MESSAGE value="#refactor : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#refactor : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다." />
   </component>
 </project>

@@ -21,6 +21,7 @@ public class ToDoApp {
                     ToDo toDo = inputNewToDo();
 
                     // 4. ToDo 인스턴스를 할 일 관리 배열에 추가
+                    toDo.setNo(nextPosition+1);
                     toDos[nextPosition] = toDo;
                     nextPosition++; // 다음에 등록할 위치 변경
 
@@ -32,7 +33,21 @@ public class ToDoApp {
                         showAllToDos();
                     }
                     break;
-                case "3": break;
+                case "3":
+                    // 검색어 입력
+                    System.out.println("검색어를 입력하세요 : ");
+                    String searchWord = sc.nextLine();
+                    // 입력된 내용이 포함된 ToDo 찾기 (반복문)
+                    for ( int i = 0; i < nextPosition; i++) {
+                        String title = toDos[i].getTitle();
+                        if ( title.contains(searchWord)) {
+                            // 결과 표시
+                            System.out.println(toDos[i].info());
+                        }
+                    }
+                    break;
+
+
                 case "4": break;
                 case "5": break;
                 case "9":
@@ -71,12 +86,11 @@ public class ToDoApp {
 
         System.out.print("할 일 내용 : ");
         String content = sc.nextLine();
-        Date now = new Date();
 
         // 3. 입력 데이터를 toDo 인스턴스에 저장
         toDo.setTitle(title);
         toDo.setContent(content);
-        toDo.setRegDate(now);
+
 
         return toDo;
     }

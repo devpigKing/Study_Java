@@ -13,14 +13,16 @@ public class ToDo {
     // ------------생성자--------------
     public ToDo() {
         // do nothing
-
+        this.regDate = new Date();
     }
 
-    public ToDo(int no, String title, String content, Date regDate) {
+    public ToDo(int no, String title, String content /*, Date regDate*/) {
+        this();
         this.no = no;
         this.title = title;
         this.content = content;
-        this.regDate = regDate;
+//        this.regDate = regDate;
+//        this.regDate = new Date();
     }
 
     // --------------getter&&Setter-----------------
