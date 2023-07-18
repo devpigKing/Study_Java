@@ -72,5 +72,9 @@ public class BankAccountDemo {
                 accounts[i] = new MinusAccount();
             }
         }
+        for (int i = 0; i < 10; i++) {
+            accounts[i].deposit();
+            accounts[i].withdraw();
+        }
     }
 }

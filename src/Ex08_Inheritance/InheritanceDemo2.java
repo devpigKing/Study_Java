@@ -22,6 +22,8 @@ public class InheritanceDemo2 {
 //        Child2 c = new Parent2(); // 오류 : 자식 타입 참조 -> 부모 타입 인스턴스 접근 불가능
 //        Child2 c = (Child2)new Parent2(); // 형변환 하더라도 죽는다.
         Child2 c2 = (Child2)p2;
+
+        System.out.println(p2 instanceof Child2);
         System.out.println("End");
     }
 }
