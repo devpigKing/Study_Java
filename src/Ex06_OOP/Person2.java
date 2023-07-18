@@ -23,6 +23,8 @@ public class Person2 {
         }
 
         public Person2(int no, String name, String phone, String email) {
+
+            this(); // 같은 클래스의 전달인자 없는 생성자 메서드 호출
             // this : 클래스의 멤버를 표시하기 위해 사용하는 표현
             this.no = no;
             this.name = name;

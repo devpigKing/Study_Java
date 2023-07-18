@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : 상속, 오버라이딩, 다형성에 관한 개념 및 기본 코드입니다.">
-      <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _05_For.java, 반복문 연습 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/BankAccountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/BankAccountDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00015" summary="#feat : Calculator.java 조건문, 자료형 형변환등을 사용해 만든 간단한 계산기 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689051701580</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1689051701580</updated>
-    </task>
-    <task id="LOCAL-00016" summary="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689052861782</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1689052861782</updated>
     </task>
     <task id="LOCAL-00017" summary="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)">
       <option name="closed" value="true" />
@@ -452,12 +431,26 @@
       <option name="project" value="LOCAL" />
       <updated>1689662642434</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="#feat : 상속, 오버라이딩, 다형성에 관한 개념 및 기본 연습 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689665819784</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1689665819800</updated>
+    </task>
+    <task id="LOCAL-00065" summary="#feat : _05_For.java, 반복문 연습 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689666233603</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1689666233603</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : _02_Parameter.java, 매개 변수를 입력받는 메서드에 관련된 기본 코드입니다." />
-    <MESSAGE value="#feat : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 여러개의 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
@@ -481,6 +474,8 @@
     <MESSAGE value="#feat : 상속에 대한 기본 개념을 공부하는 코드입니다." />
     <MESSAGE value="#feat : 상속, 다형성에 관한 기본 코드입니다." />
     <MESSAGE value="#feat : 상속, 오버라이딩, 다형성에 관한 개념 및 기본 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : 상속, 오버라이딩, 다형성에 관한 개념 및 기본 코드입니다." />
+    <MESSAGE value="#feat : 상속, 오버라이딩, 다형성에 관한 개념 및 기본 연습 코드입니다." />
+    <MESSAGE value="#feat : _05_For.java, 반복문 연습 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : _05_For.java, 반복문 연습 코드입니다." />
   </component>
 </project>

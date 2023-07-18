@@ -26,5 +26,16 @@ public class PersonDemo5 {
         p2.no = 20;
         System.out.println("p1.no = " + p1.no);
 
+        // 2.
+        Person5[] persons = new Person5[5]; // 클래스의 배열은 주소의 배열 -> 추가로 인스턴스를 만들어야 사용할 수 있따.
+        for (int i = 0; i < persons.length; i++) {
+            persons[i] = new Person5(); // 인스턴스를 만드는 이 구문이 없으면 오류
+            persons[i].no = (i+1);
+        }
+
+        for (int i = 0; i < persons.length; i++) {
+            System.out.println(persons[i].no);
+        }
+
     }
 }
