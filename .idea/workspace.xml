@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : 상속에 대한 기본 개념을 공부하는 코드입니다.">
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : 상속, 다형성에 관한 기본 코드입니다.">
       <change afterPath="$PROJECT_DIR$/src/Ex03_ControlStatement/_05_For.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/_01_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/BankAccountDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/Person2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex06_OOP/PersonDemo5.java" afterDir="false" />
@@ -57,14 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00013" summary="#refactor : Calculator.java, 자바의 입출력, 반복문, equals 메서드를 사용해 만든 간단한 계산기코드 입니다.">
-      <option name="closed" value="true" />
-      <created>1689050994337</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1689050994337</updated>
     </task>
     <task id="LOCAL-00014" summary="#feat : _01_if.java, 반복문 if에 관한 간단한 예제 코드입니다.">
       <option name="closed" value="true" />
@@ -450,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689648913089</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="#feat : 상속, 다형성에 관한 기본 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689656861394</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1689656861394</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다.(모범 답안)" />
     <MESSAGE value="#feat : _01_Method.java, 메서드의 시작을 알리는 코드입니다." />
     <MESSAGE value="#feat : _02_Parameter.java, 매개 변수를 입력받는 메서드에 관련된 기본 코드입니다." />
     <MESSAGE value="#feat : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
@@ -479,6 +479,7 @@
     <MESSAGE value="#feat : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다." />
     <MESSAGE value="#refactor : ToDo.java, ToDoApp.java, 클래스를 적용한 간단한 ToDo_List 프로그램 코드입니다." />
     <MESSAGE value="#feat : 상속에 대한 기본 개념을 공부하는 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : 상속에 대한 기본 개념을 공부하는 코드입니다." />
+    <MESSAGE value="#feat : 상속, 다형성에 관한 기본 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : 상속, 다형성에 관한 기본 코드입니다." />
   </component>
 </project>
