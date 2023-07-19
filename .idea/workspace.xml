@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Object에 관련한 기본 코드와 여러가지 다양한 내장 메서드입니다.">
-      <change afterPath="$PROJECT_DIR$/src/StringDemo.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : String에 관련된 기본 코드들입니다.">
+      <change afterPath="$PROJECT_DIR$/src/ex10_generic/GenericDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" afterDir="false" />
     </list>
@@ -54,14 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00019" summary="#feat : 자바로 간단한 가위바위보 게임을 구현한 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689061046038</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1689061046038</updated>
     </task>
     <task id="LOCAL-00020" summary="#feat : 자바 반복문을 연습하기 위한 간단한 별찍기 예제 코드입니다.">
       <option name="closed" value="true" />
@@ -447,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689732870157</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="#feat : String에 관련된 기본 코드들입니다.">
+      <option name="closed" value="true" />
+      <created>1689735901223</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1689735901223</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 여러개의 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#feat : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)" />
     <MESSAGE value="#refactor : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)" />
     <MESSAGE value="#refactor : _00_MethodDemo4.java, 매개변수로 참조 자료형을 받는 메서드에 대한 예시 코드입니다." />
@@ -476,6 +475,7 @@
     <MESSAGE value="#feat : _05_For.java, 반복문 연습 코드입니다." />
     <MESSAGE value="#feat : 패키지 사용에 대한 예시입니다." />
     <MESSAGE value="#feat : Object에 관련한 기본 코드와 여러가지 다양한 내장 메서드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : Object에 관련한 기본 코드와 여러가지 다양한 내장 메서드입니다." />
+    <MESSAGE value="#feat : String에 관련된 기본 코드들입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : String에 관련된 기본 코드들입니다." />
   </component>
 </project>
