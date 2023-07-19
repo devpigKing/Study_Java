@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : _05_For.java, 반복문 연습 코드입니다.">
-      <change afterPath="$PROJECT_DIR$/src/PackageDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkga/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkga/pahc/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkga/pakb/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkga/pakb/B2.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : 패키지 사용에 대한 예시입니다.">
+      <change afterPath="$PROJECT_DIR$/src/ObjectDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00017" summary="#feat : BreakAndContinue.java, 독특한 break, continue 기본 코드입니다.(label문)">
-      <option name="closed" value="true" />
-      <created>1689052996169</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1689052996169</updated>
     </task>
     <task id="LOCAL-00018" summary="#feat : scoreCalculator.java, 자바 입출력, switch, if문을 활용한 성적 처리기 코드입니다. (next()와 nextLine()의 차이)">
       <option name="closed" value="true" />
@@ -450,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689666233603</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="#feat : 패키지 사용에 대한 예시입니다.">
+      <option name="closed" value="true" />
+      <created>1689668601492</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1689668601492</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#refactor : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 여러개의 매개변수를 입력 받는 메서드 기본 사용법 코드입니다." />
     <MESSAGE value="#feat : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)" />
@@ -479,6 +475,7 @@
     <MESSAGE value="#feat : 상속, 오버라이딩, 다형성에 관한 개념 및 기본 코드입니다." />
     <MESSAGE value="#feat : 상속, 오버라이딩, 다형성에 관한 개념 및 기본 연습 코드입니다." />
     <MESSAGE value="#feat : _05_For.java, 반복문 연습 코드입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : _05_For.java, 반복문 연습 코드입니다." />
+    <MESSAGE value="#feat : 패키지 사용에 대한 예시입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : 패키지 사용에 대한 예시입니다." />
   </component>
 </project>
