@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : GenericDemo.java, Generic에 관련된 기본 코드들입니다.">
-      <change afterPath="$PROJECT_DIR$/src/ex11_Collection/CollectionsDemo.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Collection Framework의 주요 사용 인터페이스입니다.">
+      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/InterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex06_OOP/TheInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" afterDir="false" />
     </list>
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,14 +57,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00021" summary="#feat : 자바 배열의 기본 사용법 코드와 여러가지 초기화 방법 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689131875318</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1689131875318</updated>
     </task>
     <task id="LOCAL-00022" summary="#feat : 다차원 배열에 대한 기본 사용 코드입니다.">
       <option name="closed" value="true" />
@@ -448,11 +442,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689737373306</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="#feat : Collection Framework의 주요 사용 인터페이스입니다.">
+      <option name="closed" value="true" />
+      <created>1689747771520</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1689747771520</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#refactor : _00_MethodDemo3.java, 두 정수를 더하는 메서드 만들기 입니다.(여러개의 매개변수를 입력 받아 return하는 메서드,)" />
     <MESSAGE value="#refactor : _00_MethodDemo4.java, 매개변수로 참조 자료형을 받는 메서드에 대한 예시 코드입니다." />
     <MESSAGE value="#refactor : _00_MethodDemo5.java, 메서드 오버로딩에 대한 간단한 예시 코딩입니다." />
     <MESSAGE value="#feat : _03_Lotto.java, 기존에 작성한 로또 당첨기 코드를 메서드화 시켜보았습니다." />
@@ -477,6 +478,7 @@
     <MESSAGE value="#feat : Object에 관련한 기본 코드와 여러가지 다양한 내장 메서드입니다." />
     <MESSAGE value="#feat : String에 관련된 기본 코드들입니다." />
     <MESSAGE value="#feat : GenericDemo.java, Generic에 관련된 기본 코드들입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : GenericDemo.java, Generic에 관련된 기본 코드들입니다." />
+    <MESSAGE value="#feat : Collection Framework의 주요 사용 인터페이스입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : Collection Framework의 주요 사용 인터페이스입니다." />
   </component>
 </project>
