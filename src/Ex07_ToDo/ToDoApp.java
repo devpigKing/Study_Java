@@ -1,13 +1,17 @@
-package Ex07_ToDo;
+package ex07_ToDo;
 
+import ex07_ToDo.ToDo;
+
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
 public class ToDoApp {
 
     private final Scanner sc = new Scanner(System.in);
-    private final ToDo[] toDos = new ToDo[1000]; // 할 일을 저장, 관리하는 배열
-    private int nextPosition = 0; // 다음 할 일을 등록할 때, 저장할 배열의 위치 값
+//    private final ToDo[] toDos = new ToDo[1000]; // 할 일을 저장, 관리하는 배열
+    private int nextPosition = 0; // 다음 할 일을 등록할 때, 사용할 자동 증가 값.
+    private ArrayList<ToDo> toDos = new ArrayList<>();
 
     /**
      * 할 일 목록 관리 로직 구현 메서드
@@ -21,9 +25,10 @@ public class ToDoApp {
                     ToDo toDo = inputNewToDo();
 
                     // 4. ToDo 인스턴스를 할 일 관리 배열에 추가
-                    toDo.setNo(nextPosition+1);
-                    toDos[nextPosition] = toDo;
-                    nextPosition++; // 다음에 등록할 위치 변경
+                    toDo.setNo(nextPosition);
+//                    toDos[nextPosition] = toDo;
+                    toDos.add(toDo);
+                    nextPosition++; // 다음에 등록할 할 일 번호 변경
 
                     break;
                 case "2":
@@ -38,11 +43,13 @@ public class ToDoApp {
                     System.out.println("검색어를 입력하세요 : ");
                     String searchWord = sc.nextLine();
                     // 입력된 내용이 포함된 ToDo 찾기 (반복문)
-                    for ( int i = 0; i < nextPosition; i++) {
-                        String title = toDos[i].getTitle();
+//                    for ( int i = 0; i < nextPosition; i++) {
+                    for ( int i = 0; i < toDos.size(); i++) {
+
+                        String title = toDos.get(i).getTitle();
                         if ( title.contains(searchWord)) {
                             // 결과 표시
-                            System.out.println(toDos[i].info());
+                            System.out.println(toDos.get(i).info());
                         }
                     }
                     break;
@@ -97,10 +104,10 @@ public class ToDoApp {
 
     private void showAllToDos() {
 
-        for (int i = 0; i < nextPosition; i++) {
+        for (ToDo toDo : toDos) {
             System.out.println("[전체 할 일 목록]");
             // 처음부터 마지막 할 일이 등록되어 있는 위치까지 순회
-            String info = toDos[i].info();
+            String info = toDo.info();
             System.out.println(info);
         }
     }

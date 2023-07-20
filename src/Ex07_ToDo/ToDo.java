@@ -1,5 +1,6 @@
-package Ex07_ToDo;
+package ex07_ToDo;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ToDo {
@@ -54,7 +55,10 @@ public class ToDo {
 
     // ------------------메서드---------------------
     public String info() {
-        String info = String.format("[%3d][%s][%s][%s]", no, title, content, regDate);
+        // 날짜를 지정된 형식의 문자열로 변환하는 도구
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
+        String sRegDate = sdf.format(regDate); // 변환 실행
+        String info = String.format("[%3d][%s][%s][%s]", no, title, content, sRegDate);
         return info;
     }
 
