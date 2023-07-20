@@ -1,4 +1,4 @@
-package Ex08_Inheritance;
+package ex08_Inheritance;
 
 
 class BankAccount {

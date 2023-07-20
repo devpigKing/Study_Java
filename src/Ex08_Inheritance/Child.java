@@ -1,6 +1,6 @@
-package Ex08_Inheritance;
+package ex08_Inheritance;
 
-public class Child extends Parent{ // 상속을 표현 --> Parent의 모든 멤버가 Child에 포함
+public class Child extends ex08_Inheritance.Parent { // 상속을 표현 --> Parent의 모든 멤버가 Child에 포함
 
     String cv;
 
