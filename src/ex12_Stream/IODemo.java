@@ -128,16 +128,16 @@ public class IODemo {
 //		istream4.close();
 		
 		//5. Object <-> byte[]	
-		ArrayList<Item> items = new ArrayList<Item>();
-		for (int i = 0; i < 10; i++) {
-			Item item = new Item();
-			item.setNo(i+1);
-			item.setName("test " + (i + 1));
-			items.add(item);
-		}
-
-		FileOutputStream ostream5 = new FileOutputStream("test5.dat");
-		ObjectOutputStream oostream5 = new ObjectOutputStream(ostream5);
+//		ArrayList<Item> items = new ArrayList<Item>();
+//		for (int i = 0; i < 10; i++) {
+//			Item item = new Item();
+//			item.setNo(i+1);
+//			item.setName("test " + (i + 1));
+//			items.add(item);
+//		}
+//
+//		FileOutputStream ostream5 = new FileOutputStream("test5.dat");
+//		ObjectOutputStream oostream5 = new ObjectOutputStream(ostream5);
 
 		//아이템을 여러번 저장하는 방식
 //		for (Item item : items) {

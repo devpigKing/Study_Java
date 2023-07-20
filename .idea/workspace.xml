@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : Interface의 간단한 사용 예제입니다.">
-      <change afterPath="$PROJECT_DIR$/src/Ex07_ToDo/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex12_Stream/IODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex12_Stream/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex07_ToDo/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#refactor : ToDo 리스트입니다.">
+      <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/BankAccountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/BankAccountDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/Child.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/InheritanceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex08_Inheritance/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex08_Inheritance/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex12_Stream/IODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex12_Stream/IODemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,46 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00023" summary="#feat : 다차원 배열에 대한 기본 사용 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689144357291</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1689144357291</updated>
-    </task>
-    <task id="LOCAL-00024" summary="#feat : 반복문과 배열을 활용한 로또 번호 뽑기 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689144394444</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1689144394444</updated>
-    </task>
-    <task id="LOCAL-00025" summary="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689145817784</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1689145817784</updated>
-    </task>
-    <task id="LOCAL-00026" summary="#feat : Lotto.java 반복문과 배열을 활용한 간단한 로또 번호 뽑기 코드입니다.(모범 답안)">
-      <option name="closed" value="true" />
-      <created>1689148591370</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1689148591370</updated>
-    </task>
-    <task id="LOCAL-00027" summary="#feat : _01_Method.java, 메서드의 시작을 알리는 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689149134860</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1689149134860</updated>
     </task>
     <task id="LOCAL-00028" summary="#feat : _02_Parameter.java, 매개 변수를 입력받는 메서드에 관련된 기본 코드입니다.">
       <option name="closed" value="true" />
@@ -457,15 +415,50 @@
       <option name="project" value="LOCAL" />
       <updated>1689753169525</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="#feat : 상속에 관련된 예제 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689832588462</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1689832588462</updated>
+    </task>
+    <task id="LOCAL-00073" summary="#feat : Stream에 관한 여러가지 예시 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689832610296</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1689832610296</updated>
+    </task>
+    <task id="LOCAL-00074" summary="#feat : CollectionsDemo.java 관한 여러가지 예시 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689832622904</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1689832622904</updated>
+    </task>
+    <task id="LOCAL-00075" summary="#feat : Item 도메인입니다.">
+      <option name="closed" value="true" />
+      <created>1689832646654</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1689832646654</updated>
+    </task>
+    <task id="LOCAL-00076" summary="#refactor : ToDo 리스트입니다.">
+      <option name="closed" value="true" />
+      <created>1689832663118</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1689832663118</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#refactor : _00_MethodDemo5.java, 메서드 오버로딩에 대한 간단한 예시 코딩입니다." />
-    <MESSAGE value="#feat : _03_Lotto.java, 기존에 작성한 로또 당첨기 코드를 메서드화 시켜보았습니다." />
-    <MESSAGE value="#refactor : _03_Lotto.java, 기존에 작성한 로또 당첨기 코드를 메서드화 시켜보았습니다." />
-    <MESSAGE value="#feat : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
-    <MESSAGE value="#refactor : _04_BaseballGame.java, 간단한 자바 야구 게임 관련 코드입니다." />
     <MESSAGE value="#feat : PersonDemo.java, Person.java OOP에 대한 기본 예제 코드입니다." />
     <MESSAGE value="#feat : Person2.java, 접근지정자에 관한 예시 코드입니다.(미완)" />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다." />
@@ -486,6 +479,11 @@
     <MESSAGE value="#feat : GenericDemo.java, Generic에 관련된 기본 코드들입니다." />
     <MESSAGE value="#feat : Collection Framework의 주요 사용 인터페이스입니다." />
     <MESSAGE value="#feat : Interface의 간단한 사용 예제입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#feat : Interface의 간단한 사용 예제입니다." />
+    <MESSAGE value="#feat : 상속에 관련된 예제 코드입니다." />
+    <MESSAGE value="#feat : Stream에 관한 여러가지 예시 코드입니다." />
+    <MESSAGE value="#feat : CollectionsDemo.java 관한 여러가지 예시 코드입니다." />
+    <MESSAGE value="#feat : Item 도메인입니다." />
+    <MESSAGE value="#refactor : ToDo 리스트입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#refactor : ToDo 리스트입니다." />
   </component>
 </project>
