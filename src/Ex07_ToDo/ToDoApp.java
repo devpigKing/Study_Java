@@ -10,7 +10,7 @@ public class ToDoApp {
 
     private final Scanner sc = new Scanner(System.in);
 //    private final ToDo[] toDos = new ToDo[1000]; // 할 일을 저장, 관리하는 배열
-    private int nextPosition = 0; // 다음 할 일을 등록할 때, 사용할 자동 증가 값.
+    private int nextPosition = 1; // 다음 할 일을 등록할 때, 사용할 자동 증가 값.
     private ArrayList<ToDo> toDos = new ArrayList<>();
 
     /**
