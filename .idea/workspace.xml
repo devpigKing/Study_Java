@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#refactor : Stream 관련 예시 코드들입니다.">
-      <change afterPath="$PROJECT_DIR$/src/ex12_Stream/BizCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex12_Stream/BzCardApp.java" afterDir="false" />
+    <list default="true" id="4f333f9e-32bc-4bda-90d7-735c1bf82ece" name="Changes" comment="#feat : 사원 등록 프로그램 기본 코드입니다.">
+      <change afterPath="$PROJECT_DIR$/src/ex12_Stream/BizCardApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex07_ToDo/ToDoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex12_Stream/BzCardApp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,23 @@
       <recent name="C:\Users\jwhyd\IdeaProjects\Study_Java\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="ex07_ToDo" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BizCardApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex12_Stream.BizCardApp" />
+      <module name="Study_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BizCardApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,14 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688968863536</updated>
-    </task>
-    <task id="LOCAL-00030" summary="#refactor : _00_MethodDemo.java, 20*10 크기의 박스 그리는 함수를 통한 메서드 기본 사용법 코드입니다.">
-      <option name="closed" value="true" />
-      <created>1689211624101</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1689211624101</updated>
     </task>
     <task id="LOCAL-00031" summary="#refactor : _00_MethodDemo2.java, 20*10 크기의 박스 그리는 함수를 통한 매개변수를 입력 받는 메서드 기본 사용법 코드입니다.">
       <option name="closed" value="true" />
@@ -454,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689833873742</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="#feat : 사원 등록 프로그램 기본 코드입니다.">
+      <option name="closed" value="true" />
+      <created>1689907358447</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1689907358447</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다." />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습" />
     <MESSAGE value="#feat : Person2.java, 접근지정자, getter&amp;setter 메서드 사용 예시 코드입니다. 생성자 메서드 실습, 공유 자원 static(정적 변수)" />
     <MESSAGE value="#feat : ConstantMemo.java, 생성자 관련 기본 코드입니다." />
@@ -483,6 +498,7 @@
     <MESSAGE value="#refactor : ToDo 리스트입니다." />
     <MESSAGE value="#refactor : 패키지 명 수정입니다." />
     <MESSAGE value="#refactor : Stream 관련 예시 코드들입니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="#refactor : Stream 관련 예시 코드들입니다." />
+    <MESSAGE value="#feat : 사원 등록 프로그램 기본 코드입니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="#feat : 사원 등록 프로그램 기본 코드입니다." />
   </component>
 </project>
